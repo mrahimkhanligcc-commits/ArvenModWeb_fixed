@@ -239,7 +239,7 @@ button,
 ============================== */
 
 .hero {
-    min-height: 440px;
+    min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -255,6 +255,9 @@ button,
 
 .hero-content {
     max-width: 760px;
+    background: rgba(95, 63, 63, 0.2);
+    padding: 40px 30px;
+    border-radius: 16px;
 }
 
 .hero .eyebrow {
@@ -274,6 +277,21 @@ button,
     margin: 0 auto 28px;
     color: #ffffff;
     font-size: 18px;
+}
+
+.hero {
+    min-height: 500px;
+
+    background-image: url('/assets/images/photo_background.png');
+    background-size: cover;
+    background-position: 65% 80%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    position: relative;
 }
 
 /* ==============================
